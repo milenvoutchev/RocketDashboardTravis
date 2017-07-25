@@ -1,0 +1,44 @@
+@import 'variables';
+
+.NavigationBar {
+
+  .navbar-brand {
+    height: $navbar-height;
+    width: $navbar-height;
+    padding: 0;
+  }
+
+  .navbar-left {
+    color: $rocket-gray;
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: .04em;
+    line-height: $navbar-height;
+    margin-left: 10px;
+  }
+
+  .navbar-right {
+    padding: 0 $space-small;
+
+    button {
+      font-size: $font-size-small;
+      border-color: transparent;
+      background-color: transparent;
+      color: $main-color;
+      outline: none;
+      cursor: pointer;
+    }
+
+    button:hover {
+      cursor: hand;
+    }
+
+    button:active {
+      box-shadow: none;
+      color: $rocket-gray;
+      background-color: transparent;
+      border-color: transparent;
+      outline: none;
+    }
+  }
+}

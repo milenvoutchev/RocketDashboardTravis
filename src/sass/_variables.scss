@@ -1,0 +1,45 @@
+// grid
+$grid-gutter-width: 20px;
+
+// colors
+$main-color: #1986ff;
+$default-bg-color: #f1f6f8;
+$rocket-gray: #b7b7b7;
+$green: #9bb209;
+$red: #ff2b19;
+$negative-color: $red;
+$positive-color: $green;
+
+// spaces
+$space-small : 5px;
+$space-medium: 10px;
+$space-large: 30px;
+$space-extra-large: 60px;
+
+// font-sizes
+$font-size-huge: 124px;
+$font-size-big: 48px;
+$font-size-normal: 30px;
+$font-size-small: 18px;
+
+// navbar
+$navbar-height: 40px;
+$navbar-margin-bottom: 10px;
+
+// widget
+$widget-height: 260px;
+$widget-heading-color: darken($rocket-gray, 25%);
+$widget-border-color: #e5e5e5;
+
+// Charts
+$charts-rectangle-fill: #1986ff;
+$charts-label-fill: #1986ff;
+
+// bugs history chart
+// (note: the variables below are not used, they are added here only as a memo)
+$chart-grid-stroke: #e7e7e7;
+$chart-axis-stroke: $rocket-gray;
+$chart-bar-fill: $main-color;
+
+// Override default bootstrap variables (https://raw.githubusercontent.com/twbs/bootstrap-sass/master/assets/stylesheets/bootstrap/_variables.scss)
+$panel-border-radius: 0;
