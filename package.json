@@ -73,7 +73,7 @@
     "start": "concurrently \"npm run client\" \"npm run --prefix server start:dev\"",
     "client": "node scripts/client-start.js",
     "build": "node scripts/build.js",
-    "test": "node scripts/test.js --env=jsdom --coverage",
+    "test": "node scripts/test.js --env=jsdom",
     "test:coverage": "yarn test -- --coverage",
     "lint:js": "eslint --ext .js src/**/*.js",
     "lint:js-fix": "eslint --fix --ext .js src/**/*.js",
